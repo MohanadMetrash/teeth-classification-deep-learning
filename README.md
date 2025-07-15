@@ -18,7 +18,7 @@ A live web application was built to provide an interactive interface for the bes
 
 ## 📋 Project Overview
 
-The primary goal is to classify dental images into one of seven categories. The project systematically evaluates different deep learning strategies to identify the most effective approach.
+The goal of this project is to accurately classify images of human teeth into distinct categories. The model is trained on a dataset of dental images and can identify classes such as 'CaS', 'CoS', 'Gum', 'MC', etc. The project systematically evaluates different deep learning strategies to identify the most effective approach.
 
 ### Key Features
 *   **Multiple Model Architectures:** Comparison of a custom CNN, Transfer Learning (ResNet50), and Fine-Tuning.

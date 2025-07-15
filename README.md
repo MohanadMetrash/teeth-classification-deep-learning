@@ -51,7 +51,7 @@ You can download the dataset directly from Google Drive.
 
 To run the Streamlit app or test the models without the need for training, you can download the final saved model files directly.
 
-*   **[Download Trained Models from Google Drive]((https://drive.google.com/drive/folders/1I3n33bTc3MnHK0MwXHdaVfquowedMu8q))**
+*   **[Download Trained Models from Google Drive](https://drive.google.com/drive/folders/1I3n33bTc3MnHK0MwXHdaVfquowedMu8q)**
 
 **Instructions for the Streamlit App:**
 1.  Download the files from the link above.

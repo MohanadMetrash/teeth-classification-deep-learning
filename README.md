@@ -22,6 +22,8 @@ The goal of this project is to accurately classify images of human teeth into di
 
 ### Key Features
 *   **Multiple Model Architectures:** Comparison of a custom CNN, Transfer Learning (ResNet50), and Fine-Tuning.
+*   Data Augmentation: Implementation of RandomFlip, RandomRotation, and RandomZoom to create a more robust model.
+*   Callbacks: Use of EarlyStopping and ReduceLROnPlateau for efficient training.
 *   **In-depth Evaluation:** Detailed performance analysis using accuracy, loss, classification reports, and confusion matrices.
 *   **Interactive Web Interface:** A user-friendly Streamlit app to test the final model with any image.
 *   **Reproducible Workflow:** A Jupyter Notebook (`Teeth_Classification.ipynb`) contains all the code for data preprocessing, model training, and evaluation.

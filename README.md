@@ -30,6 +30,24 @@ The goal of this project is to accurately classify images of human teeth into di
 
 ---
 
+
+## Dataset
+
+The model was trained on the "Teeth Dataset", which is organized into three subsets: Training, Validation, and Testing. The dataset contains **7 classes** of dental images.
+
+- **Training Set**: 3087 images
+- **Validation Set**: 1028 images
+- **Test Set**: 1028 images
+
+### How to Get the Data
+
+You can download the dataset directly from Google Drive.
+
+[![Download Dataset](https://img.shields.io/badge/Dataset-Download_Zip-blue.svg)](https://drive.google.com/uc?export=download&id=1WEySXMFz6v1OgPkLKJ8QIp3Lk-eyTObY)
+
+---
+
+
 ## 🚀 Model Performance & Results
 
 The models were trained and evaluated on their ability to classify images from the test set. The fine-tuned ResNet50 model achieved the best performance, demonstrating the power of adapting pre-trained models to specific domains.

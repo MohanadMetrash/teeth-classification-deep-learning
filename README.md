@@ -66,8 +66,8 @@ This is the quickest way to see the project in action.
 **Instructions:**
 1.  **Clone the repository:**
     ```bash
-    git clone https://github.com/your-username/your-repo-name.git
-    cd your-repo-name
+    git clone https://github.com/MohanadMetrash/teeth-classification-deep-learning.git
+    cd teeth-classification-deep-learning
     ```
 
 2.  **Install dependencies:**
@@ -85,55 +85,6 @@ This is the quickest way to see the project in action.
     streamlit run app.py
     ```
     Your web browser will open with the application running locally.
-
-### 2. Training the Models from Scratch
-
-Follow these steps to preprocess the data and train the models yourself using the Jupyter Notebook.
-
-**Prerequisites:**
-*   Download the dataset from [Kaggle: Teeth Dataset](https://www.kaggle.com/datasets/gpiosenka/teeth-dataset-classification-and-segmentation).
-*   A local environment with Jupyter Notebook or Google Colab.
-
-**Instructions:**
-1.  **Set up the data:** After downloading, extract the zip file and place the `Teeth_Dataset` folder in a `data/` directory at the root of the project. The structure should be:
-    ```
-    your-repo-name/
-    ├── data/
-    │   └── Teeth_Dataset/
-    │       ├── Testing/
-    │       ├── Training/
-    │       └── Validation/
-    └── ... (other files)
-    ```
-
-2.  **Run the Jupyter Notebook:**
-    Open and run the cells in `Teeth_Classification.ipynb`. The notebook will:
-    - Load and preprocess the data.
-    - Build, train, and evaluate all models.
-    - Save the final fine-tuned model as `teeth_classification_model_with_FineTune.keras` in the main directory. You will need to move this file into the `Streamlit_App` folder to run the demo.
-
----
-
-## 📂 Repository Structure
-
-```
-.
-├── Streamlit_App/
-│   ├── app.py                                  # The Streamlit application script
-│   └── teeth_classification_model_with_FineTune.keras # (Needs to be added here)
-├── results/
-│   ├── FineTuned_ResNet50/
-│   │   ├── confusion_matrix.png
-│   │   ├── prediction_examples.png
-│   │   ├── Training and validation accuracy.png
-│   │   └── Training and validation loss.png
-│   └── From_Scratch_With_Augmentation/
-│       └── ... (similar result images)
-├── .gitignore
-├── README.md                                   # This documentation file
-├── requirements.txt                            # Project dependencies
-└── Teeth_Classification.ipynb                  # Notebook for training & evaluation
-```
 
 ---
 

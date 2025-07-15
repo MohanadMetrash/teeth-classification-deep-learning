@@ -27,7 +27,7 @@ The goal of this project is to accurately classify images of human teeth into di
 ---
 
 
-## Dataset
+## 📚 Dataset
 
 The model was trained on the "Teeth Dataset", which is organized into three subsets: Training, Validation, and Testing. The dataset contains **7 classes** of dental images.
 

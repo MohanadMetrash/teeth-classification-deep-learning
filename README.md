@@ -1,9 +1,5 @@
 # Teeth Classification with CNNs and Streamlit App
 
-![License](https://img.shields.io/github/license/MohanadMetrash/teeth-classification-deep-learning)
-![GitHub top language](https://img.shields.io/github/languages/top/MohanadMetrash/teeth-classification-deep-learning)
-![GitHub repo size](https://img.shields.io/github/repo-size/MohanadMetrash/teeth-classification-deep-learning)
-
 This project provides a comprehensive exploration of deep learning for dental image classification. It includes the training and evaluation of multiple models, from a custom CNN to a fine-tuned ResNet50, and culminates in an interactive web application built with Streamlit for real-time predictions.
 
 ### ✨ Live Demo App

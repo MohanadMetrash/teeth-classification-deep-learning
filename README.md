@@ -10,7 +10,7 @@ This project provides a comprehensive exploration of deep learning for dental im
 
 A live web application was built to provide an interactive interface for the best-performing model (Fine-Tuned ResNet50). Users can upload a dental image and receive an instant classification.
 
-*(**Suggestion:** Create a short GIF of you using your Streamlit app and place it here. It's very impressive for a portfolio! You can use a tool like LICEcap or ScreenToGif.)*
+![Teeth Classification App Demo](assets/Animation.gif)
 
 
 

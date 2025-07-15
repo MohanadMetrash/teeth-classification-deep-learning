@@ -47,6 +47,18 @@ You can download the dataset directly from Google Drive.
 
 ---
 
+## 💾 Pre-Trained Models
+
+To run the Streamlit app or test the models without the need for training, you can download the final saved model files directly.
+
+*   **[Download Trained Models from Google Drive]((https://drive.google.com/drive/folders/1I3n33bTc3MnHK0MwXHdaVfquowedMu8q))**
+
+**Instructions for the Streamlit App:**
+1.  Download the files from the link above.
+2.  Find the best-performing model: `teeth_classification_model_with_FineTune.keras`.
+3.  Place this `.keras` file inside the `Streamlit_App/` folder in your local repository. The app is configured to load the model from this location.
+
+---
 
 ## 🚀 Model Performance & Results
 

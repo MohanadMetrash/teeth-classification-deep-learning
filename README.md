@@ -34,11 +34,11 @@ The models were trained and evaluated on their ability to classify images from t
 
 | Model                               | Test Accuracy | Test Loss |
 | ----------------------------------- | :-----------: | :-------: |
-| Custom CNN (No Augmentation)        |    87.42%     |   0.3644  |
-| Custom CNN (With Augmentation)      |    96.43%     |   0.0984  |
-| Transfer Learning - Xception        |    97.14%     |   0.0911  |
-| Transfer Learning - ResNet50        |    97.58%     |   0.0631  |
-| **Fine-Tuned - ResNet50**           |  **~98.28%**  | **~0.05** |
+| Custom CNN (No Augmentation)        |    55.06%     |   1.3454  |
+| Custom CNN (With Augmentation)      |    88.62%     |   0.3489  |
+| Transfer Learning - Xception        |    81.61%     |   0.5640  |
+| Transfer Learning - ResNet50        |    90.27%     |   0.3466  |
+| **Fine-Tuned - ResNet50**           |  **~99.51%**  | **~0.0121** |
 
 
 ### Results from Fine-Tuned ResNet50 Model
